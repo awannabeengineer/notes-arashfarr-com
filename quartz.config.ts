@@ -6,10 +6,9 @@ const config: QuartzConfig = {
     pageTitle: "wbe",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
-    baseUrl: "quartz.jzhao.xyz",
+    // analytics: {
+    //   provider: "plausible",
+    // },
     baseUrl: "notes.arashfarr.com",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
